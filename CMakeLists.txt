@@ -12,6 +12,8 @@ add_executable(template_method src/template_method/template_method.cpp)
 
 add_executable(factory_method src/factory_method/factory_method.cpp)
 
+add_executable(singleton src/singleton/singleton.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
