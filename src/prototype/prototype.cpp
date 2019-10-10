@@ -3,7 +3,9 @@
 #include "ConcretePrototype.h"
 
 int main(int argc, char const *argv[]) {
-  //
+  // 不同点：原型模式实现的是一个 clone 接口，注意是接口，也就是基于多态的 clone
+  // 虚函数。也就是说原型模式能够通过基类指针来复制派生类对象。
+  // 拷贝构造函数完不成这样的任务。原型模式的核心是克隆，构造函数只是克隆的一个办法而已。
   Prototype *pa1 = new ConcretePrototypeA();
 
   // 这里和直接new区别不大，相当于 new ConcretePrototypeA()
