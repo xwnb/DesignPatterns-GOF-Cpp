@@ -16,6 +16,8 @@ add_executable(singleton src/singleton/singleton.cpp)
 
 add_executable(prototype src/prototype/prototype.cpp)
 
+add_executable(builder src/builder/builder.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
