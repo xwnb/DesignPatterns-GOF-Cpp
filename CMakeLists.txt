@@ -18,6 +18,8 @@ add_executable(prototype src/prototype/prototype.cpp)
 
 add_executable(builder src/builder/builder.cpp)
 
+add_executable(abstract_factory src/abstract_factory/abstract_factory.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
