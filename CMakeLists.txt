@@ -22,6 +22,8 @@ add_executable(abstract_factory src/abstract_factory/abstract_factory.cpp)
 
 add_executable(bridge src/bridge/bridge.cpp)
 
+add_executable(strategy src/strategy/strategy.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
