@@ -24,6 +24,8 @@ add_executable(bridge src/bridge/bridge.cpp)
 
 add_executable(strategy src/strategy/strategy.cpp)
 
+add_executable(composite src/composite/composite.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
