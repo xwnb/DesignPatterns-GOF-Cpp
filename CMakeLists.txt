@@ -32,6 +32,8 @@ add_executable(visitor src/visitor/visitor.cpp)
 
 add_executable(mediator src/mediator/mediator.cpp)
 
+add_executable(observer src/observer/observer.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
