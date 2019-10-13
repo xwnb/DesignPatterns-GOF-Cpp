@@ -26,6 +26,9 @@ add_executable(strategy src/strategy/strategy.cpp)
 
 add_executable(composite src/composite/composite.cpp)
 
+add_executable(decorator src/decorator/decorator.cpp)
+
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
