@@ -28,6 +28,7 @@ add_executable(composite src/composite/composite.cpp)
 
 add_executable(decorator src/decorator/decorator.cpp)
 
+add_executable(visitor src/visitor/visitor.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
