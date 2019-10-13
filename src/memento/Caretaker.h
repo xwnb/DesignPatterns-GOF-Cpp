@@ -19,6 +19,11 @@ class Caretaker {
     std::cout << "Caretaker: Constructed.\n";
   }
   virtual ~Caretaker() {
+    std::cout << "Caretaker: Delete Mementoes.\n";
+    for (auto &m : memento_list_) {
+      delete m;
+    }
+    memento_list_.clear();
     std::cout << "Caretaker: Deconstructed.\n";
   }
 

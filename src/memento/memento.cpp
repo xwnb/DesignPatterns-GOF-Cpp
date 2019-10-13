@@ -39,6 +39,8 @@ int main(int argc, char const *argv[]) {
   state = {3, "State3"};
   originator->SetState(state);
   originator->GetState();
+  caretaker->SetMemento(originator->CreateMemento());
+
   state = {4, "State4"};
   originator->SetState(state);
   originator->GetState();
