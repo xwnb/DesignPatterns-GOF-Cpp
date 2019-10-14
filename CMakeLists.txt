@@ -36,6 +36,8 @@ add_executable(observer src/observer/observer.cpp)
 
 add_executable(memento src/memento/memento.cpp)
 
+add_executable(state src/state/state.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
