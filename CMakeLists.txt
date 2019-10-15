@@ -42,6 +42,9 @@ add_executable(flyweight src/flyweight/flyweight.cpp)
 
 add_executable(proxy src/proxy/proxy.cpp)
 
+add_executable(command_ src/command_/command.cpp)
+
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
