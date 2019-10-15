@@ -38,6 +38,8 @@ add_executable(memento src/memento/memento.cpp)
 
 add_executable(state src/state/state.cpp)
 
+add_executable(flyweight src/flyweight/flyweight.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
