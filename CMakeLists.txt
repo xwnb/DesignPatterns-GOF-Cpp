@@ -44,6 +44,8 @@ add_executable(proxy src/proxy/proxy.cpp)
 
 add_executable(command_ src/command_/command.cpp)
 
+add_executable(interpreter src/interpreter/interpreter.cpp)
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
